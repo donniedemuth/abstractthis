@@ -39,7 +39,7 @@ body {
 	background-position: 60% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	height: 1600px;
+	width: 100%;
 	color: #fff;
 }
 
@@ -47,6 +47,7 @@ body {
 	background-position: 60% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-width: 500px;
 	height: 500px;
 	color: #fff;
 }
@@ -55,6 +56,7 @@ body {
 	background-position: 60% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-width: 500px;
 	height: 500px;
 	color: #fff;
 }
@@ -63,6 +65,7 @@ body {
 	background-position: 60% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
+	min-width: 500px;
 	height: 500px;
 	color: #fff;
 }
