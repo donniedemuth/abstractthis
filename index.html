@@ -1,0 +1,86 @@
+---
+layout: default
+---
+<!--
+bodyClass: mediatop
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+	{% comment %} The default-carousel.yml file can be found in the _data directory {% endcomment %}
+	<ol class="carousel-indicators">
+		{% for item in site.data.default-carousel %}
+			{% if forloop.first == true %}
+			<li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" class="active"></li>
+			{% else %}
+			<li data-target="#myCarousel" data-slide-to="{{ forloop.index0 }}" class=""></li>
+			{% endif %}		
+		{% endfor %}
+	</ol>
+	<div class="carousel-inner">
+		{% for item in site.data.default-carousel %}
+			{% if forloop.first == true %}
+			<div class="item active" style="background-image:url('{{ item.img }}')">
+			{% else %}
+			<div class="item" style="background-image:url('{{ item.img }}')">
+			{% endif %}
+				<!-- <img src="{{ item.img }}"> -->
+<!--
+				<div class="container">
+					<div class="carousel-caption">
+						<h1>{{ item.headline }}</h1>
+						<p>{{ item.content }}</p>
+						<p><a class="btn btn-lg btn-primary" href="{{ item.url }}" role="button">{{ item.cta }}</a></p>
+					</div>
+				</div>
+			</div>
+		{% endfor %}
+	</div>
+	<a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+	<a class="right carousel-control" href="#myCarousel" role="button" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+</div>
+-->
+
+
+<div id="coffee">
+	<div class="container promote">
+		<div class="index-quote">Caffeine consumption a must.</div>
+		<div class="clear"></div>
+		<div class="index-quote-link"><span>\\</span><a href="/projects">Projects</a></div>
+	</div>
+</div>
+
+<div id="sleep">
+	<div class="container promote">
+		<div class="index-quote">Sleep optional.</div>
+		<div class="clear"></div>
+		<div class="index-quote-link"><span>\\</span><a href="/members">Team</a></div>
+	</div>
+</div>
+
+
+<!--
+<div id="projects">
+	<div class="container promote">
+		<div class="index-quote">Slinging code is the norm.</div>
+		<div class="clear"></div>
+		<div class="index-quote-link"><span>\\</span>Projects</div>
+	</div>
+</div>
+-->
+
+
+
+<!-- <div class="home">
+
+  <h1>Posts</h1>
+
+  <ul class="posts">
+    {% for post in site.posts %}
+      <li>
+        <span class="post-date">{{ post.date | date: "%b %-d, %Y" }}</span>
+        <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+
+  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+
+</div> -->
