@@ -3,8 +3,8 @@
   <channel>
     <title>Abstract This!</title>
     <description>todo</description>
-    <link>http://www.abstractthis.com/</link>
-    <atom:link href="http://www.abstractthis.com/feed.xml" rel="self" type="application/rss+xml" />
+    <link>http://www.abstractthis.com/abstractthis/</link>
+    <atom:link href="http://www.abstractthis.com/abstractthis/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
         <title>testing</title>
@@ -12,8 +12,8 @@
 &lt;!-- Clean Slate! Do what you wish! --&gt;&lt;/p&gt;
 </description>
         <pubDate>Sun, 25 May 2014 00:00:00 -1000</pubDate>
-        <link>http://www.abstractthis.com/2014/05/25/testing/</link>
-        <guid isPermaLink="true">http://www.abstractthis.com/2014/05/25/testing/</guid>
+        <link>http://www.abstractthis.com/abstractthis/2014/05/25/testing/</link>
+        <guid isPermaLink="true">http://www.abstractthis.com/abstractthis/2014/05/25/testing/</guid>
       </item>
     
   </channel>
