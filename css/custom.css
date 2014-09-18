@@ -1,0 +1,149 @@
+#bar {
+    background: url('/assets/grass.jpg') repeat scroll left 60% / cover transparent;
+    height: 7px;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    overflow: hidden;
+    z-index: 1000;
+}
+
+.navbar {
+	background: white;
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 30px;
+}
+
+.nav a {
+    color: #444;
+}
+
+.nav a:hover, .nav a:focus {
+    color: #09D;
+    text-decoration: underline;
+    background-color: #fff !important;
+}
+
+.nav li a {
+	padding-right: 0;
+}
+
+body {
+
+}
+
+.teamphoto {
+	background-position: 60% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 1600px;
+	color: #fff;
+}
+
+#projects {
+	background-image: url('/assets/projects.jpg');
+	background-position: 60% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: #fff;
+}
+
+#coffee {
+	background-image: url('/assets/coffee2.jpg');
+	background-position: 60% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: #fff;
+}
+
+#sleep {
+	background-image: url('/assets/sleep.jpg');
+	background-position: 60% 50%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	height: 500px;
+	color: #fff;
+}
+
+.index-quote {
+	background:rgba(0,0,0,0.5);
+	color: #fff;
+	margin-top: 50px;
+	padding: 10px;
+	display: inline-block;
+	
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 60px;
+}
+
+.index-quote-link {
+	background:rgba(0,0,0,0.5);
+	color: #069;
+	padding: 10px;
+	margin-left: 100px;
+	display: inline-block;
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 60px;
+}
+
+
+.trans-white-title {
+	background:rgba(255,255,255,0.5);
+	color: #666;
+	margin-top: 50px;
+	padding: 10px;
+	display: inline-block;
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 60px;
+	font-weight: 300;
+	line-height: 60px;
+}
+
+.trans-body {
+	background:rgba(255,255,255,0.5);
+	color: #000;
+	padding: 10px;
+	margin-left: 20px;
+	display: inline-block;
+	width: 350px;
+
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	line-height: 16px;
+}
+
+#projects .index-quote-link {
+	color: #bfb;
+}
+
+
+#sleep .index-quote-link a {
+	color: #bfb;
+}
+
+#coffee .index-quote-link a {
+	color: #fbb;
+}
+
+.index-quote-link a:hover, .index-quote-link a:focus {
+	color: #fff;
+}
+
+
+.index-quote-link span {
+	color: #999; padding-right: 20px;
+}
+
+
