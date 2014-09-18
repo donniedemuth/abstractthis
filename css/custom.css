@@ -39,7 +39,7 @@ body {
 	background-position: 60% 50%;
 	background-repeat: no-repeat;
 	background-size: cover;
-	width: 100%;
+	min-width: 500px;
 	color: #fff;
 }
 
