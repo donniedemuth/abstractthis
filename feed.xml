@@ -1,21 +1,20 @@
----
-layout: 
----
 <?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>{{ site.title | xml_escape }}</title>
-    <description>{{ site.description | xml_escape }}</description>
-    <link>{{ site.url }}{{ site.baseurl }}/</link>
-    <atom:link href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}" rel="self" type="application/rss+xml" />
-    {% for post in site.posts limit:10 %}
+    <title>Abstract This!</title>
+    <description>todo</description>
+    <link>http://www.abstractthis.com/</link>
+    <atom:link href="http://www.abstractthis.com/feed.xml" rel="self" type="application/rss+xml" />
+    
       <item>
-        <title>{{ post.title | xml_escape }}</title>
-        <description>{{ post.content | xml_escape }}</description>
-        <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-        <link>{{ post.url | prepend: site.baseurl | prepend: site.url }}</link>
-        <guid isPermaLink="true">{{ post.url | prepend: site.baseurl | prepend: site.url }}</guid>
+        <title>testing</title>
+        <description>&lt;p&gt;sss
+&lt;!-- Clean Slate! Do what you wish! --&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 25 May 2014 00:00:00 -1000</pubDate>
+        <link>http://www.abstractthis.com/2014/05/25/testing/</link>
+        <guid isPermaLink="true">http://www.abstractthis.com/2014/05/25/testing/</guid>
       </item>
-    {% endfor %}
+    
   </channel>
 </rss>
