@@ -8,11 +8,11 @@ title: Team
 	{% for member in site.members %}
 		<div class="col-sm-6 col-md-3">
 			<div class="thumbnail">
-				<a href="{{ member.url }}"><img src="{{ member.photo }}" alt=""/></a>
+				<a href="{{ site.baseurl }}{{ member.url }}"><img src="{{ site.baseurl }}{{ member.photo }}" alt=""/></a>
 				<div class="caption">
 					<h3>{{ member.title }}</h3>
 					<p>
-						<a href="{{ member.url }}" class="btn btn-default">View Profile</a>
+						<a href="{{ site.baseurl }}{{ member.url }}" class="btn btn-default">View Profile</a>
 					</p>
 				</div>
 			</div>
